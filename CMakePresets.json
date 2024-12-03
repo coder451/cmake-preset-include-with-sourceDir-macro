@@ -1,0 +1,18 @@
+{
+  "version": 9,
+  "include": [
+    "${sourceDir}/user-cache-variables.json"
+  ],
+  "configurePresets": [
+    {
+      "inherits": [
+        "user-cache-variables"
+      ],
+      "name": "msvc17-x64",
+      "displayName": "msvc17-x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "builds/msvc17/x64"
+    }
+  ]
+}
